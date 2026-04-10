@@ -1,31 +1,10 @@
-#Task: The Number Investigator
+#Task 4: Rocket Countdown
+max_Num = 10
 
-userInput = int(input("Please enter your round number here: "))
+for i in range(max_Num):
+    i >= max_Num
+    max_Num = max_Num - 1
+    print(max_Num)
 
-for i in range (userInput):
-    if userInput == 0:
-        kind = " is a-Zero number.\n"
-        break
-    elif userInput % 2 == 0:
-        classification = "Even"
-        if userInput > 0:
-            total_positive = 0
-            i = 1
-            for i in range (i <= userInput):  
-                total_positive += i
-                kind = "Positive"
-        else: 
-            kind = "Negative"
-    elif userInput % 2 == 1:
-        classification = "Odd"
-        if userInput > 0:
-            total_positive = 0
-            i = 1
-            for i in range (i <= userInput):
-                total_positive += i
-                kind = "Positive"
-        else: 
-            kind = "Negative"
-
-print(f"Result: {classification}, {kind}. Total 1-{userInput} adalah {total_positive}.")
-        
+    if max_Num == 1:
+        print("LAUNCHING TIME! SHIUUUHHH\n")
